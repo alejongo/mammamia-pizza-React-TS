@@ -2,7 +2,7 @@ type PizzaGridProps = {
   children: React.ReactNode;
 };
 
-export const PizzaGrid: React.FC<PizzaGridProps> = ({ children }) => {
+export const PizzaGrid = ({ children }: PizzaGridProps) => {
   return (
     <>
       <div className="w-5/6 mx-auto">
